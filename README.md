@@ -14,6 +14,7 @@ testというモデルを作成。id,name,age,emailというカラム作成。</
 
 #3、検証
 『SQL実行』というタブ内で下記を記述・実行してダミーデータを追加。</br>
+
 INSERT INTO</br>
 	test</br>　　
 	(name, age, email)</br>　　
@@ -21,7 +22,9 @@ VALUES</br>
 	("aaa",  20, "aaa@aaa.aaa"),</br>
 	("bbb",  25, "bbb@bbb.bbb"),</br>
 	("ccc",  30, "ccc@ccc.ccc")</br>
-  次に</br>
+	
+次に</br>
+  
   SELECT * FROM test</br>
   
  を記述・実行する。結果、下記のデータが追加されていた。成功。</br>
