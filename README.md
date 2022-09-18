@@ -1,4 +1,4 @@
-# create_local_DB_react-native
+# BG6AppのDBをFireStoreではなく、ローカルで作成する
 
 下記のサイトをもとにDBを作成する。BG6App用に作成したい。</br>
 https://dev-yakuza.posstree.com/react-native/react-native-sqlite-storage/</br>
@@ -22,13 +22,13 @@ VALUES</br>
 	("aaa",  20, "aaa@aaa.aaa"),</br>
 	("bbb",  25, "bbb@bbb.bbb"),</br>
 	("ccc",  30, "ccc@ccc.ccc")</br>
-	
+
 次に</br>
-  
+
   SELECT * FROM test</br>
-  
+
  を記述・実行する。結果、下記のデータが追加されていた。成功。</br>
- 
+
 id name age email</br>
 1	 aaa	20	aaa@aaa.aaa</br>
 2	 bbb	25	bbb@bbb.bbb</br>
