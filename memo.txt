@@ -1,0 +1,1 @@
+react nativeでローカルにDBを置きたいので、sqliteで作成してみる。
