@@ -1,6 +1,6 @@
 # create_local_DB_react-native
 
-下記のサイトをもとにDBを作成する。BG6App用に作成したい。　　
+下記のサイトをもとにDBを作成する。BG6App用に作成したい。</br>
 https://dev-yakuza.posstree.com/react-native/react-native-sqlite-storage/
 
 1、準備
