@@ -37,3 +37,9 @@ id name age email</br>
 #4、react-nativeで利用する。</br>
 branchを切って作成したDBを連携してみる。</br>　　
 
+#備考
+NN,PK,AI,Uの意味</br>
+・NN=Not Null
+・PK＝Primary Key
+・Auto Increment（自動番号割り当て）
+・U=Unique（一意）
