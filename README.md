@@ -38,8 +38,17 @@ id name age email</br>
 branchを切って作成したDBを連携してみる。</br>　　
 
 #備考
-NN,PK,AI,Uの意味</br>
-・NN=Not Null
-・PK＝Primary Key
-・Auto Increment（自動番号割り当て）
-・U=Unique（一意）
+* NN,PK,AI,Uの意味
+	* NN=Not Null
+	* PK＝Primary Key
+	* Auto Increment（自動番号割り当て）
+	* U=Unique（一意）
+
+* リレーションの構築の仕方。
+一対多の関係。一＝A、多＝Bの場合</br>
+
+SELECT *</br>
+FROM B</br>
+  INNER JOIN A ON B.A_id = A.id;</br>
+
+BのカラムのA_idと、Aのカラムのidが結合される。</br>
